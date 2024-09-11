@@ -2,26 +2,31 @@
 # rak-frontend-app
 =======
 # Getting Started with Create React App
+# rak-frontend-app
 
-Project Overview
+This project is a frontend web application built with **React.js**. It utilizes modern tools and libraries to enhance development and code quality.
 
-This project is a frontend web application built with: react.js
+## Project Overview
 
-React for building the UI.
-Redux Toolkit for state management.
-Ant Design (Antd) for UI components.
-Axios for API calls.
-TypeScript to enhance code quality with static typing.
-Getting Started
+This project is developed using:
+- **React** for building the UI.
+- **Redux Toolkit** for state management.
+- **Ant Design (Antd)** for UI components.
+- **Axios** for API calls.
+- **TypeScript** to enhance code quality with static typing.
 
-To get started with this project, ensure you have Node.js and npm (or Yarn) installed.
+## Getting Started
 
-Installation
-Clone the repository and install the required dependencies.
+To get started with this project, ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (or [Yarn](https://yarnpkg.com/)) installed.
+
+### Installation
+
+Clone the repository and install the required dependencies:
 
 git clone https://github.com/your-username/rak-frontend-app.git
 cd rak-frontend-app
 npm install
+
 Running the App
 To run the app in development mode, use:
 npm start
