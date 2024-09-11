@@ -5,7 +5,7 @@
 
 Project Overview
 
-This project is a frontend web application built with:
+This project is a frontend web application built with: react.js
 
 React for building the UI.
 Redux Toolkit for state management.
@@ -19,24 +19,16 @@ To get started with this project, ensure you have Node.js and npm (or Yarn) inst
 Installation
 Clone the repository and install the required dependencies.
 
-bash
-Copy code
 git clone https://github.com/your-username/rak-frontend-app.git
 cd rak-frontend-app
 npm install
 Running the App
 To run the app in development mode, use:
-
-bash
-Copy code
 npm start
 The app will be available at http://localhost:3000.
 
 Building the App
 To create a production-ready build of the app, run:
-
-bash
-Copy code
 npm run build
 The optimized build will be located in the build/ directory.
 
@@ -65,4 +57,17 @@ This app is set up to use modern JavaScript features along with TypeScript for s
 
 For component development, ensure you follow modular component-based architecture.
 
+Folder Structure
+plaintext
+Copy code
+src/
+├── assets/       # assets
+├── components/   # Reusable UI components
+├── features/     # Application functionality
+├── models/       # models
+├── store/        # Redux store and slices
 
+Build and Deployment
+
+To build the project for production:
+npm run build
