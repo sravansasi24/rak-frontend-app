@@ -46,10 +46,15 @@ npm run build: Builds the app for production.
 The project has the following core dependencies:
 
 React: A JavaScript library for building user interfaces.
+
 Redux Toolkit: Official toolset for efficient Redux development.
+
 Ant Design: A popular UI framework.
+
 Axios: A promise-based HTTP client for making API requests.
+
 TypeScript: Static type definitions for ensuring code quality.
+
 For the full list of dependencies, see the package.json file.
 
 ### Development
@@ -59,8 +64,7 @@ This app is set up to use modern JavaScript features along with TypeScript for s
 For component development, ensure you follow modular component-based architecture.
 
 ### Folder Structure
-plaintext
-Copy code
+
 src/
 ├── assets/       # assets
 ├── components/   # Reusable UI components
