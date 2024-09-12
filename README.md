@@ -1,4 +1,3 @@
-# Getting Started with Create React App
 # rak-frontend-app
 
 This project is a frontend web application built with **React.js**. It utilizes modern tools and libraries to enhance development and code quality.
