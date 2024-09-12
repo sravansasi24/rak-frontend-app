@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# rak-frontend-app
-=======
 # Getting Started with Create React App
 # rak-frontend-app
 
