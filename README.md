@@ -72,3 +72,11 @@ Build and Deployment
 
 To build the project for production:
 npm run build
+
+# Image
+
+ ![image](https://github.com/user-attachments/assets/5d68f717-593f-488a-8468-6b92c8b0b48f)
+
+ ![image](https://github.com/user-attachments/assets/d572fc59-cc4a-44ea-aac9-476df7d09a16)
+
+
