@@ -68,13 +68,13 @@ For component development, ensure you follow modular component-based architectur
 src/
 ├── assets/       # assets
 
-├── components/   # Reusable UI components
+   ├── components/   # Reusable UI components
 
-├── features/     # Application functionality
+   ├── features/     # Application functionality
 
-├── models/       # models
+   ├── models/       # models
 
-├── store/        # Redux store and slices
+   ├── store/        # Redux store and slices
 
 ### Build and Deployment
 
