@@ -38,9 +38,9 @@ The optimized build will be located in the build/ directory.
 In the project directory, you can run:
 
 npm start: Runs the app in development mode.
+
 npm run build: Builds the app for production.
-npm test: Launches the test runner in interactive watch mode.
-npm run eject: Removes the single build dependency and configures the app manually.
+
 ### Dependencies
 
 The project has the following core dependencies:
