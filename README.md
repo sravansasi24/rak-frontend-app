@@ -20,7 +20,9 @@ To get started with this project, ensure you have [Node.js](https://nodejs.org/)
 Clone the repository and install the required dependencies:
 
 git clone [https://github.com/your-username/rak-frontend-app.git](https://github.com/sravansasi24/rak-frontend-app.git)
+
 cd rak-frontend-app
+
 npm install
 
 ### Running the App
