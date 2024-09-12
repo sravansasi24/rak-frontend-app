@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React from "react";
 
 import {signUpRequest} from "./signUpApi";
 import SignUpForm from "../../components/SignUpForm"

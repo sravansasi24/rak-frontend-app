@@ -4,14 +4,12 @@ import { useSelector } from 'react-redux';
 
 
 function App() {
-  const  {status}  = useSelector((state: any) => state.user);
-
-
+  const status = useSelector((state: any) => state.user.save.status);
   return (
     <>
       <div className="container is-max-desktop">
       <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px', backgroundColor: "#ffff"}}>
-       {status ? <Success/> :<SignUp /> }
+       {status === 'success' ? <Success/> :<SignUp /> }
        </div>
       </div>
     </>

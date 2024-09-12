@@ -15,13 +15,11 @@ interface SignUpFormProps {
 const SignUpForm: React.FC<SignUpFormProps> = ({onSubmit}) => {
 
   const [form] = Form.useForm();
-   const  {status}  = useSelector((state: any) => state.user);
-   console.log("status------",status)
+   const status = useSelector((state: any) => state.user.save.status);
 
   const handleFinish = async (e: React.FormEvent) => {
     //e.preventDefault();
     onSubmit(e);
-
   };
 
   return (

@@ -3,36 +3,36 @@ import { createSlice } from "@reduxjs/toolkit";
 import { signUpRequest } from "./signUpApi";
 
 export const SignUpSlice = createSlice({
-    name: "user",
-    initialState: {
-        list: {
-            isLoading: false,
-            status: "",
-            values: []
-        },
-        save: {
-            status: "",
-        }
+  name: "user",
+  initialState: {
+    list: {
+      isLoading: false,
+      status: "",
+      values: [],
     },
-    reducers: {
-        clearSuccessMessage: (state, payload) => {
-            // Update state to clear success message
-        }
+    save: {
+      status: "",
     },
-    extraReducers: (builder) => {
-        builder.addCase(signUpRequest.pending, (state, action) => {
-          // pending
-           state.save.status = "pending"
-        })
-        builder.addCase(signUpRequest.fulfilled, (state, action) => {
-            // fulfilled
-             state.save.status = "success"
-          })
-        builder.addCase(signUpRequest.rejected, (state, action) => {
-            // rejected
-             state.save.status = "failed"
-          })
-      },
-})
+  },
+  reducers: {
+    clearSuccessMessage: (state, payload) => {
+      // Update state to clear success message
+    },
+  },
+  extraReducers: (builder) => {
+    builder.addCase(signUpRequest.pending, (state, action) => {
+      // pending
+      state.save.status = "pending";
+    });
+    builder.addCase(signUpRequest.fulfilled, (state, action) => {
+      // fulfilled
+      state.save.status = "success";
+    });
+    builder.addCase(signUpRequest.rejected, (state, action) => {
+      // rejected
+      state.save.status = "failed";
+    });
+  },
+});
 
-export default SignUpSlice.reducer
+export default SignUpSlice.reducer;
